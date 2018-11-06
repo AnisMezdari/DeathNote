@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Game : MonoBehaviour {
@@ -9,8 +8,8 @@ public class Game : MonoBehaviour {
 
     public Game()
     {
-        notoriety = 0;
-        pnjList = new List<PNJ>();
+        this.notoriety = 0;
+        this.pnjList = new List<PNJ>();
     }
 
     public void DesignateStudentToDieList()

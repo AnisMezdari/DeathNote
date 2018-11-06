@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
+
 
 public class Kira : Player {
 
@@ -10,9 +9,9 @@ public class Kira : Player {
    
     public Kira()
     {
-        getDeathNote = true;
-        characterMeetList = new List<Character>();
-        characterMeetList = false;
+        this.getDeathNote = true;
+        this.characterMeetList = new List<Character>();
+        this.characterMeetList = false;
     }
 
     public void OpenDeathNote()

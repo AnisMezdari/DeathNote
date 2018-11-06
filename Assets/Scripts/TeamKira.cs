@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class TeamKira : MonoBehaviour {
@@ -8,7 +7,7 @@ public class TeamKira : MonoBehaviour {
 
     public TeamKira()
     {
-        studentsToDieList = new List<Character>();
+        this.studentsToDieList = new List<Character>();
     }
 
     public int NumberOfKiraALive()

@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class TeamPolice : MonoBehaviour {
@@ -8,7 +7,7 @@ public class TeamPolice : MonoBehaviour {
 
     public TeamPolice()
     {
-        policemanList = new List<Policeman>();
+        this.policemanList = new List<Policeman>();
     }
 
     public void addPoliceMan(Policeman policeman)
