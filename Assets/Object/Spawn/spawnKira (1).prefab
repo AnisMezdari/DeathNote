@@ -9,55 +9,44 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1469922743024544}
+  m_RootGameObject: {fileID: 1337635641145156}
   m_IsPrefabAsset: 1
---- !u!1 &1469922743024544
+--- !u!1 &1337635641145156
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4859563707531192}
-  - component: {fileID: 114182786750008478}
-  - component: {fileID: 114946165921323628}
+  - component: {fileID: 4021473195444872}
+  - component: {fileID: 114717272183441386}
+  - component: {fileID: 114642213178704896}
   m_Layer: 0
-  m_Name: spawnPolice (1)
+  m_Name: spawnKira (1)
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4859563707531192
+--- !u!4 &4021473195444872
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1469922743024544}
+  m_GameObject: {fileID: 1337635641145156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104.395, y: 1.243, z: 192.36}
+  m_LocalPosition: {x: -34.03, y: 1.17, z: -1.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114182786750008478
+--- !u!114 &114642213178704896
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1469922743024544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1050975500, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114946165921323628
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1469922743024544}
+  m_GameObject: {fileID: 1337635641145156}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
@@ -66,21 +55,32 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 123
-    i1: 189
-    i2: 189
-    i3: 54
-    i4: 113
-    i5: 111
-    i6: 189
-    i7: 52
-    i8: 106
-    i9: 102
-    i10: 186
-    i11: 10
-    i12: 81
-    i13: 207
-    i14: 167
-    i15: 152
+    i0: 58
+    i1: 169
+    i2: 13
+    i3: 127
+    i4: 47
+    i5: 6
+    i6: 194
+    i7: 100
+    i8: 187
+    i9: 56
+    i10: 52
+    i11: 235
+    i12: 21
+    i13: 6
+    i14: 109
+    i15: 233
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114717272183441386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337635641145156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1050975500, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
