@@ -386,6 +386,7 @@ GameObject:
   - component: {fileID: 54343046047582812}
   - component: {fileID: 136118234673920358}
   - component: {fileID: 114614901419763038}
+  - component: {fileID: 114021462283459684}
   m_Layer: 0
   m_Name: PNJ
   m_TagString: PNJ
@@ -1778,8 +1779,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1357369911859738}
   m_LocalRotation: {x: -0, y: 0.99056715, z: -0, w: -0.13702792}
-  m_LocalPosition: {x: 0.28708, y: 0.123, z: 0.9048}
-  m_LocalScale: {x: 0.7493, y: 0.85135, z: 0.5}
+  m_LocalPosition: {x: 0.2911, y: 0.123, z: 0.91905}
+  m_LocalScale: {x: 0.7493, y: 0.85135, z: 0.7582315}
   m_Children:
   - {fileID: 224367501165207408}
   - {fileID: 4427332195281566}
@@ -2087,6 +2088,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114021462283459684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1357369911859738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 104
+    i1: 9
+    i2: 223
+    i3: 145
+    i4: 77
+    i5: 145
+    i6: 220
+    i7: 180
+    i8: 203
+    i9: 41
+    i10: 203
+    i11: 44
+    i12: 190
+    i13: 196
+    i14: 177
+    i15: 38
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114028126324547836
 MonoBehaviour:
   m_ObjectHideFlags: 1
