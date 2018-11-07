@@ -16,13 +16,9 @@ public class Kira : Player {
 
     public void OpenDeathNote()
     {
-
     }
 
     public void ChooseStudent()
     {
-
     }
-
-
 }

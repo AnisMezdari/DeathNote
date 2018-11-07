@@ -17,7 +17,7 @@
 
     public void Die() {}
 
-    public abstract void Moving();
+    public abstract void PlayerMovement();
 
     public abstract override void SetIsInteractable();
 }
