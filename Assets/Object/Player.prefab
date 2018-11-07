@@ -2035,7 +2035,7 @@ MonoBehaviour:
     i14: 101
     i15: 151
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 1
+  m_LocalPlayerAuthority: 0
 --- !u!137 &137351618364051998
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

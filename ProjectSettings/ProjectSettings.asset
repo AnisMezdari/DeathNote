@@ -650,9 +650,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 5cadeab8-80f7-45c2-95ce-37293767ff7e
+  cloudProjectId: b1658dc0-cefb-4e6a-b49f-62773ea92c2f
   projectName: DeathNote
-  organizationId: maroinkassas
+  organizationId: mezdari77580
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
