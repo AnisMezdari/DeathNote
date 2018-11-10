@@ -30,6 +30,7 @@ public class Game : NetworkBehaviour
     {
 
     }
+
     public List<string> LoadPNJnameFile()
     {
         FileInfo theSourceFile = null;
